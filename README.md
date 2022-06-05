@@ -40,6 +40,7 @@ para testar um sistema web utilizando o selenium, é necessário instalar um dri
 1º passo: para rodar os testes
 - é importante certificar de que os arquivos (buscaAPI_variaveis.robot, buscaAPI_testes.robot e buscasAPI_resources.robot) estejam todos na mesma pasta
 - pelo terminal do Visual Studio: abre o terminal na pasta do projeto e escreva o comando "robot buscaAPI_testes.robot"
+- para executar apenas um caso de teste: robot -t "(nome do caso de teste)" buscaAPI_testes.robot
 - pelo cmd: acesse a pasta do projeto e escreva o mesmo comando que escrevera no terminal do VS code
 	
 	
